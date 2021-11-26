@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none; /* set the appearance */
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center ;
+    font-size: 35px; 
+    width: 100%;
+}
+nav{
+    background: rgb(34,34,34);
+    height: 80px;
+    width: 100%;
+} 
+label.logo{
+    color: white;
+    font-size: 20px;
+    line-height: 80px;
+    padding: 100px;
+    font-weight: bold;
+}
+nav ul {
+    float: right;
+    margin-right: 180px; 
+}
+nav ul li{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+} 
+nav ul li a{
+    color:    white;
+    font-size: 15px;
+    padding: 6px;
+    border-radius: 3px; /* round the border */
+}
+section{
+    width: 100%;
+    height: 620px; 
+    background-position: center center;
+    background-size: cover; 
+    background-image: url(nyc1.jpg);
+}
+button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-left: 100px; 
+    padding: 1px 19px;
+    text-decoration: none;
+    background-color: rgb(4, 20, 116);
+    border: none; 
+    border-radius:  50px;
+    height: 55px;
+    width: 500px;
+}
+.Paragragh {
+    width: 100%;
+    position: relative; /* normal position */
+    padding-top: 200px;
+    background: #ddd; 
+    height: 40px;
+}
+.Paragragh p{
+    padding: 10%;
+    font-family: meriends;
+    line-height: 100px;
+}
+.button1{
+    text-decoration: none;
+    color:rgba(0, 0, 255, 0.616); 
+    font-size: 20px;
+    background:white;
+    padding: 15px 20px;
+    border-radius: 50px;
+    border: 1px solid grey ;
+    height: 55px;
+}
+.button1:hover{
+    background-color: rgb(0, 3, 169);
+    color: white;
+    transition:.3s ease-in; 
+} 
+.banner-area{
+    width: 1550px;
+    height: 610px; 
+    margin: auto 0;
+    position: absolute;
+    top: 80px;
+    background-size: cover; 
+    background-position: center center; 
+} 
+.banner-area h2{
+    padding-top: 17%;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: lowercase;
+    text-align: center ;
+    color: white;
+} 
+.banner-area1{
+    width: 100%;
+    height: 800px;
+    margin: auto 0;
+    position: relative;
+    top : 80px;
+    background-image: url(nyc5.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.banner-area1 h1{
+    padding-top: 17%;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: lowercase;
+    text-align: center;
+    color: white;
+}
+
+
+
+ 
